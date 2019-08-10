@@ -36,6 +36,12 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.13</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.22</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     <!-- 不同的环境，可以在不同的环境下分开，连接不同的数据库 -->
     <profiles>
